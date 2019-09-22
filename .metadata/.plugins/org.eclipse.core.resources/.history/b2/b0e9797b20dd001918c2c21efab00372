@@ -1,0 +1,28 @@
+package cn.com.agree.springcloud.serviceImpl;
+
+import java.util.List;
+
+import cn.com.agree.springcloud.entities.Dept;
+import cn.com.agree.springcloud.service.DeptService;
+
+public class DeptServiceImpl implements DeptService {
+
+	@Override
+	public boolean add(Dept dept) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Dept get(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Dept> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

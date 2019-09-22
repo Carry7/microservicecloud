@@ -1,0 +1,6 @@
+package cn.com.agree.springcloud.dao;
+
+@Mapper
+public interface DeptDao {
+
+}

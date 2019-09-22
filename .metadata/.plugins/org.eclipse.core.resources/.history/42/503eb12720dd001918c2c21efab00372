@@ -1,0 +1,9 @@
+package cn.com.agree.springcloud.service;
+
+public class DeptService {
+	public boolean add(Dept dept);
+
+	public Dept get(Long id);
+
+	public List<Dept> list();
+}

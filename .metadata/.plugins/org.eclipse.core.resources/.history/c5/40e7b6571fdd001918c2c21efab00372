@@ -1,0 +1,25 @@
+server:
+  port: 8001
+
+# mybatis的整合
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml         # mybatis的配置文件信息
+  type-aliases-package: cn.com.agree.springcloud.entities    # 所有实体类的的所在包
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                        # mapper映射文件信息  这是一个数组
+  
+# springboot的整合
+spring:
+  application:
+    name: microservicecloud-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.git.mm.mysql.Driver
+    url: jdbc:mysql://127.0.0.1:3307/coludDB01
+    username: root
+    password: root
+    dbcp2:
+      min-idle: 5                                       # 数据库连接池的最小维持连接数
+      initial-size: 5                                   # 初始化连接数
+      max-total: 5                                      # 最大连接数
+      max-wait-millis: 200                              # 等待连接获取的最大超时时间

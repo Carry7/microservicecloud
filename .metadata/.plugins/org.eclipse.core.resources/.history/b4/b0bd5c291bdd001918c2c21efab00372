@@ -1,0 +1,8 @@
+package cn.com.agree.springcloud.entities;
+
+import lombok.Data;
+
+@Data
+public class Dept {
+
+}

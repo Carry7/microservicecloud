@@ -1,0 +1,6 @@
+package cn.com.agree.springcloud.entities;
+
+@Data
+public class Dept {
+
+}

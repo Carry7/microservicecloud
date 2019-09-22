@@ -1,0 +1,5 @@
+package cn.com.agree.springcloud.service;
+
+public class DeptService {
+
+}
