@@ -30,7 +30,6 @@ public class DeptController {
 	
 	@GetMapping("/dept/list")
 	public List<Dept> list() {
-		System.out.println("...................");
 		return service.list();
 	}
 }

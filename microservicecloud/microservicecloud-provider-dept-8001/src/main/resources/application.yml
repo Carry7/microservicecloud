@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8101
 
 # mybatis的整合
 mybatis:
