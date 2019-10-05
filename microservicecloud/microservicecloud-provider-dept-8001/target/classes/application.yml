@@ -1,5 +1,5 @@
 server:
-  port: 8101
+  port: 8001
 
 # mybatis的整合
 mybatis:
@@ -24,7 +24,17 @@ spring:
       max-total: 5                                      # 最大连接数
       max-wait-millis: 200                              # 等待连接获取的最大超时时间
       
-      
-  jackson:
-    serialization:
-      FAIL_ON_EMPTY_BEANS: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservicecloud-dept8001   #之定义服务名称信息
+    prefer-ip-address: true      #访问路径可以显示IP
+    
+    
+info:
+  app.name: agree-microservicecloud
+  company.name: www.agree.com.cn
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
