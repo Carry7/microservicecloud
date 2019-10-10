@@ -3,7 +3,6 @@ package cn.com.agree.springcloud.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +14,8 @@ import cn.com.agree.springcloud.entities.Dept;
 @RestController
 public class DeptController_Consumer {
 
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
+	//private static final String REST_URL_PREFIX = "http://localhost:8001";
+	private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 	
 	@Autowired
 	private RestTemplate restTemplate;
