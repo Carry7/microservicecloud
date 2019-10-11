@@ -1,3 +1,5 @@
+cn\com\agree\myrule\MyRibbonRule.class
+cn\com\agree\myrule\MySelfRule.class
 cn\com\agree\springcloud\cfgbeans\ConfigBean.class
 cn\com\agree\springcloud\DeptConsumer80_App.class
 cn\com\agree\springcloud\controller\DeptController_Consumer.class

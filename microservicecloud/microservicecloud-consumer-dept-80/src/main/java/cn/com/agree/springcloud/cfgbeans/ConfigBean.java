@@ -19,8 +19,8 @@ public class ConfigBean {
 		return new RestTemplate();
 	}
 	
-	@Bean
+	/*@Bean
 	public IRule myRule() {          //指定使用随机的负载均衡算法
 		return new RandomRule();
-	}
+	}*/
 }
