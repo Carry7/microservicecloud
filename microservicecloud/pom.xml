@@ -75,5 +75,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<module>microservicecloud-eureka-7003</module>
 		<module>microservicecloud-provider-dept-8002</module>
 		<module>microservicecloud-provider-dept-8003</module>
+		<module>microservicecloud-consumer-dept-80-feign</module>
 	</modules>
 </project>

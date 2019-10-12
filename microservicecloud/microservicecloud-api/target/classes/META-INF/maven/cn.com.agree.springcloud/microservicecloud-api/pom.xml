@@ -7,6 +7,11 @@
   </parent>
   <artifactId>microservicecloud-api</artifactId>
   <dependencies>
+ <!-- Feign相关的 -->
+	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-feign</artifactId>
+	</dependency>
   	<dependency>
   		<groupId>org.projectlombok</groupId>
   		<artifactId>lombok</artifactId>
