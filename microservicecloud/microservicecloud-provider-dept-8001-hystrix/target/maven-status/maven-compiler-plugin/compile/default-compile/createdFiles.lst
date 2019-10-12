@@ -1,0 +1,5 @@
+cn\com\agree\springcloud\service\DeptService.class
+cn\com\agree\springcloud\controller\DeptController.class
+cn\com\agree\springcloud\dao\DeptDao.class
+cn\com\agree\springcloud\service\serviceImpl\DeptServiceImpl.class
+cn\com\agree\springcloud\DeptProvider8001Hystrix_App.class
