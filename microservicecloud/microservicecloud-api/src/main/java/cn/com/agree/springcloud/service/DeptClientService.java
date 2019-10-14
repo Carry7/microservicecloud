@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import cn.com.agree.springcloud.entities.Dept;
 
-@FeignClient(name="MICROSERVICECLOUD-DEPT")   //定义Feign客户端
+@FeignClient(name="MICROSERVICECLOUD-DEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)   //定义Feign客户端
 public interface DeptClientService {
 	
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)

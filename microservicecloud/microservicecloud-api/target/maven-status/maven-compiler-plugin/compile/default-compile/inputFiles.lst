@@ -1,2 +1,3 @@
-D:\javaEE\githubRepositories\microservicecloud\microservicecloud\microservicecloud-api\src\main\java\cn\com\agree\springcloud\entities\Dept.java
-D:\javaEE\githubRepositories\microservicecloud\microservicecloud\microservicecloud-api\src\main\java\cn\com\agree\springcloud\service\DeptClientService.java
+D:\javaEE\github_workspace\microservicecloud\microservicecloud\microservicecloud-api\src\main\java\cn\com\agree\springcloud\service\DeptClientServiceFallbackFactory.java
+D:\javaEE\github_workspace\microservicecloud\microservicecloud\microservicecloud-api\src\main\java\cn\com\agree\springcloud\entities\Dept.java
+D:\javaEE\github_workspace\microservicecloud\microservicecloud\microservicecloud-api\src\main\java\cn\com\agree\springcloud\service\DeptClientService.java
